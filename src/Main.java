@@ -73,6 +73,13 @@ public class Main {
         double area = Math.PI * radius * radius;
         System.out.println(area);
 
+
+        // 11. Гипотенуза
+        double firstkatet = scanner.nextDouble();
+        double secondkatet = scanner.nextDouble();
+        double gipotenuza = Math.sqrt(firstkatet * firstkatet + secondkatet * secondkatet);
+        System.out.println(gipotenuza);
+
         scanner.close();
     }
 }
